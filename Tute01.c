@@ -10,12 +10,12 @@ int main() {
    double average;
    
    printf("Enter the first subject mark : ");
-   scanf("%lf",&mark1);
+   scanf("%d",&mark1);
     
    printf("Enter the second subject mark : ");
-   scanf("%lf",&mark2);
+   scanf("%d",&mark2);
     
-    average = (mark1 + mark2)/2;
+    average = (mark1 + mark2)/2.00;
     
     printf("Average is : %.2lf",average);
   
