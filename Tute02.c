@@ -35,5 +35,8 @@ int main() {
   {
     Amount = Distance * 50;
   }
+  
+  printf("Total Amount is : %.2lf",Amount);
+  
   return 0;
 }
